@@ -1,0 +1,26 @@
+/*공통적으로 적용하는 스타일 모아놓기*/
+*{
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            border: 1px solid black;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo>a {
+            color: #00bc70;
+            font-size: 40px;
+            font-weight: bold;
+            text-decoration: none;
+            padding-left: 6px;
+            padding-right: 6px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+        }
